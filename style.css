@@ -1,0 +1,76 @@
+
+
+body {
+    background: radial-gradient(circle at top, #0f0f1c, #000);
+    color: #e0e0ff;
+    font-family: 'Consolas', 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.braquiossauro-principal {
+    background: rgba(20, 20, 40, 0.9);
+    border: 2px solid #3af3ff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 20px #3af3ff, 0 0 40px #9d00ff;
+    animation: glow 2s infinite alternate;
+}
+
+
+.velociraptor-foto .icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #3af3ff;
+    box-shadow: 0 0 15px #3af3ff;
+    margin-bottom: 20px;
+}
+
+
+.tiranossauro-nome h1 {
+    font-size: 1.8rem;
+    color: #3af3ff;
+    margin: 0;
+    text-shadow: 0 0 5px #3af3ff, 0 0 10px #9d00ff;
+}
+
+
+.triceratops-info {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #d0d0ff;
+}
+
+
+.raptor-botao {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #3af3ff, #9d00ff);
+    border-radius: 12px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 0 10px #3af3ff;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.raptor-botao:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #9d00ff;
+}
+
+
+.espinossauro-rodape {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #8080ff;
+}
+
